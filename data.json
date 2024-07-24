@@ -1,0 +1,17 @@
+{
+    "validInputs": [
+        {
+            "username": "'or 1=1;--",
+            "password": "'or 1=1;--"
+        },
+        {
+            "username": "'or 1=1--",
+            "password": "'or 1=1--"
+        },
+        {
+            "username": "admin'--",
+            "password": "admin'--"
+        }
+    ],
+     "flag": "selectCTF{bypass_my_password}"
+}
